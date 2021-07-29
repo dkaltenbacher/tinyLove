@@ -1,0 +1,13 @@
+.form span {
+  display: block;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=form.css.map */{
+    "version": 3,
+    "mappings": "AAKA,AAAA,KAAK,CAAC,IAAI,CAAA;EACN,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,MAAM;CACjB",
+    "sources": [
+        "form.scss"
+    ],
+    "names": [],
+    "file": "form.css"
+}

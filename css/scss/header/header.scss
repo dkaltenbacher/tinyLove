@@ -1,0 +1,293 @@
+@mixin redeSocial{
+  font-size: 30px;
+  color: $branco;
+  margin: 5px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container__grid {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.6))), url("../imagens/fundo-celular.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../imagens/fundo-celular.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner__introducing {
+    color: azure;
+    display: block;
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .banner__logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .banner__titulo {
+    color: azure;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin: 0px auto;
+  }
+  
+  .banner__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .banner__link-instagram {
+    @include redeSocial();
+  }
+  
+  .banner__link-facebook {
+    @include redeSocial();
+  }
+  
+  .banner__link-twitter {
+    @include redeSocial();
+  }
+  
+  .banner__texto {
+    margin: 20px auto auto 50%;
+  }
+  
+  .banner__subtitulo {
+    color: azure;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .banner__texto p {
+    color: azure;
+    font-size: 1rem;
+    text-align: justify;
+    width: 300px;
+  }
+  
+  .app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .app__google {
+    content: url(../imagens/hero__button-app-android.png);
+    display: block;
+    width: 100px;
+    margin: 5% 0;
+  }
+  
+  .app__ios {
+    content: url(../imagens/hero__button-app-ios.png);
+    display: block;
+    width: 100px;
+    margin: 5% 5%;
+  }
+  .main{
+    background-color: #de6358;
+    padding-top: 10px;
+  }
+  .overview{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+  }
+  .overview__cube{
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  .overview__user{
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  .overview__file{
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  .main__msg{
+    height: 80px;
+    padding: auto;
+    text-align: center;
+  
+  }.overview h3{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .overview span{
+    display: block@mixin redeSocial{
+  font-size: 30px;
+  color: $branco;
+  margin: 5px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container__grid {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.6))), url("../imagens/fundo-celular.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url("../imagens/fundo-celular.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .banner__introducing {
+    color: azure;
+    display: block;
+    font-size: 1.5rem;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .banner__logo {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .banner__titulo {
+    color: azure;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    margin: 0px auto;
+  }
+  
+  .banner__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  
+  .banner__link-instagram {
+    @include redeSocial();
+  }
+  
+  .banner__link-facebook {
+    @include redeSocial();
+  }
+  
+  .banner__link-twitter {
+    @include redeSocial();
+  }
+  
+  .banner__texto {
+    margin: 20px auto auto 50%;
+  }
+  
+  .banner__subtitulo {
+    color: azure;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .banner__texto p {
+    color: azure;
+    font-size: 1rem;
+    text-align: justify;
+    width: 300px;
+  }
+  
+  .app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .app__google {
+    content: url(../imagens/hero__button-app-android.png);
+    display: block;
+    width: 100px;
+    margin: 5% 0;
+  }
+  
+  .app__ios {
+    content: url(../imagens/hero__button-app-ios.png);
+    display: block;
+    width: 100px;
+    margin: 5% 5%;
+  }
+  .main{
+    background-color: #de6358;
+    padding-top: 10px;
+  }
+  .overview{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+  }
+  .overview__cube{
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  .overview__user{
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  .overview__file{
+    width: 250px;
+    text-align: center;
+    margin: 10px;
+  }
+  .main__msg{
+    height: 80px;
+    padding: auto;
+    text-align: center;
+  
+  }.overview h3{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  .overview span{
+    display: block;
+    margin: 20px;
+  }
+  .overview p{
+    font-weight: 600;
+  }
+  .overview i{
+    padding: 20px;
+    background-color: #de6358 ;
+    border-radius: 100%;
+    color: azure;
+  }
+  .main__msg p{
+    color: azure;
+    font-size: 2rem;
+    margin-top: 40px;
+  }
+ 

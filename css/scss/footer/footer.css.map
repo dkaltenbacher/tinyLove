@@ -1,0 +1,12 @@
+.footer {
+  height: 50px;
+}
+/*# sourceMappingURL=footer.css.map */{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAA;EACH,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "footer.scss"
+    ],
+    "names": [],
+    "file": "footer.css"
+}
